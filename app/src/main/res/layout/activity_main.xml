@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#AED581"
+    tools:context="com.example.android.mybirthdaycard.MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/cakev"
+        android:scaleType="centerCrop"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:text="Happy birthday valenciah!"
+        android:textAllCaps="true"
+        android:textColor="#F44336"
+        android:textStyle="bold"
+        android:background="#9C27B0"
+       />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAllCaps="true"
+        android:textStyle="italic"
+        android:textColor="#2196F3"
+        android:background="#AED581"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:text="wish you many many years to come"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"/>
+
+
+</RelativeLayout>
